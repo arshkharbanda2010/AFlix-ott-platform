@@ -6,10 +6,8 @@ function Nav() {
   const transitionNavbar = () => {
     if (window.scrollY > 100) {
       handleShow(true);
-      console.log("ture");
     } else {
       handleShow(false);
-      console.log("false");
     }
   };
 
