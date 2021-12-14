@@ -2,6 +2,9 @@ h2 {
   color: white;
   margin-left: 20px;
 }
+h3 {
+  color: white;
+}
 .row__posters {
   display: flex;
   overflow-y: hidden;
@@ -24,4 +27,7 @@ h2 {
 }
 .row__posterLarge {
   max-height: 250px;
+}
+.poster__names {
+  color: white;
 }
