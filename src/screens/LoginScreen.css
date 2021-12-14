@@ -36,3 +36,46 @@
   border: none;
   cursor: pointer;
 }
+.loginScreen__body {
+  position: absolute;
+  top: 30%;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+}
+
+.loginScreen__body > h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.loginScreen__body > h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.loginScreen__body > h3 {
+  font-weight: 400;
+}
+.loginScreen__input {
+  margin-top: 20px;
+}
+.loginScreen__input > form > input {
+  padding: 10px;
+  outline-width: 0px;
+  height: 30px;
+  width: 30%;
+  border: none;
+  max-width: 600px;
+}
+.loginScreen__getStarted {
+  padding: 16px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+}
