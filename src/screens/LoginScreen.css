@@ -39,12 +39,13 @@
 .loginScreen__body {
   position: absolute;
   top: 30%;
-  margin: auto;
   width: 100%;
-  justify-content: center;
+  text-align: center;
   z-index: 1;
   color: #fff;
   text-align: center;
+  left: 0;
+  right: 0;
 }
 
 .loginScreen__body > h1 {
